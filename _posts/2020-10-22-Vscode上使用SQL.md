@@ -1,4 +1,8 @@
-### tag:SQL 
+---
+layout: post
+title: 
+tag: SQL
+---
 我们知道Vscode是一款强大的编辑器，我们可以通过商城里面的插件扩展来写C/C++/python/java等。同样Vscode支持SQL语言，我们可以通过Vscode来连接本地的数据库，并对本地的数据库进行操作，接下来看怎么实现的吧。
 
 **首先我们要在Vscode商城里面下载一个插件：MSSQL。**
