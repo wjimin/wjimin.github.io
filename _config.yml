@@ -1,3 +1,8 @@
+# Pagination
+gems: [jekyll-paginate,jekyll-sitemap]
+paginate: 20
+paginate_path: "page/:num/"
+
 # Basic
 title: 吴济民
 subtitle: 个人站
@@ -5,36 +10,39 @@ description: 欢迎来到我的个人站~
 # 头像里面的标题
 avatarTitle: Drifter
 # 头像里面的描述
-avatarDesc: c++ / 算法
-url: "http://wjimin.io"
+avatarDesc: C++/算法
+url: "https://wjimin.github.io/"
+
+# 博客是否自动生成目录，false为不生成
+enableToc: true
 
 # Comment
-#comment:
-#   disqus: leopard
-    # gitment: xxx // 需要修改 comments.html中的client_id和client_secret
+comment:
+    # livere: MTAyMC81MDk5NC8yNzQ3Ng  # https://www.livere.com
+    disqus: leopard
     # uyan: 2143225  # 有言id,登录有言官网申请
 
 # Social
-#social:
- #   weibo: 5366874726 
-  github: wjimin
+social:
+    weibo: 5366874726 
+    github: wjimin
     # zhihu: panpanleopard
     # juejin: xxx
-  #  jianshu: 2ada30d8d0f7
+    jianshu: 2ada30d8d0f7
     # twitter: 
-    mail: 1980713118@qq.com
+    mail: leopardpan@icloud.com
 
 
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
-#baidu:
- #   id: xxxx  
+baidu:
+    id: 8ba1c6be0953b6f9c2ba38e57f615421  
 
 # Google Analytics
 # 使用博客模板请去掉或者更换 id
-#ga:
- #   id: xxxx  
-  #  host: auto  
+ga:
+    id: UA-84134159-3  
+    host: auto  
 
 
 # 《----------------- 上面的信息修改成你自己的 ---------------------------》
@@ -64,12 +72,11 @@ blog_button:
 nav:
     - {title: 所有文章, description: archive, url: '/archive'}   
     - {title: 标签, description: tags, url: '/tags'}      
-    - {title: 关于我, description: about, url: '/about'}      
+    - {title: 技术支持, description: support, url: '/support'}      
+    - {title: 关于我, description: about, url: '/about'}   
     
 
 # Pagination
 gems: [jekyll-paginate,jekyll-sitemap]
 paginate: 20
 paginate_path: "page/:num/"
-
-
