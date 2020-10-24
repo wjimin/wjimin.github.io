@@ -9,32 +9,32 @@ avatarDesc: c++ / 算法
 url: "http://wjimin.io"
 
 # Comment
-comment:
-    disqus: leopard
+#comment:
+#   disqus: leopard
     # gitment: xxx // 需要修改 comments.html中的client_id和client_secret
     # uyan: 2143225  # 有言id,登录有言官网申请
 
 # Social
-social:
-    weibo: 5366874726 
-    github: wjimin
+#social:
+ #   weibo: 5366874726 
+  github: wjimin
     # zhihu: panpanleopard
     # juejin: xxx
-    jianshu: 2ada30d8d0f7
+  #  jianshu: 2ada30d8d0f7
     # twitter: 
     mail: 1980713118@qq.com
 
 
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
-baidu:
-    id: xxxx  
+#baidu:
+ #   id: xxxx  
 
 # Google Analytics
 # 使用博客模板请去掉或者更换 id
-ga:
-    id: xxxx  
-    host: auto  
+#ga:
+ #   id: xxxx  
+  #  host: auto  
 
 
 # 《----------------- 上面的信息修改成你自己的 ---------------------------》
