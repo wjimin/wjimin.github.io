@@ -1,3 +1,4 @@
+### tag:笔记
 In mathematics, the nth harmonic number is the sum of the reciprocals of the first n natural numbers:
 ![在这里插入图片描述](https://imgconvert.csdnimg.cn/aHR0cHM6Ly92ai56MTgwLmNuL2RiZmYxY2NmM2I0MWYxMTlkODAyMzM1Y2QyMTJjOTRk?x-oss-process=image/format,png)
 ![在这里插入图片描述](https://imgconvert.csdnimg.cn/aHR0cHM6Ly92ai56MTgwLmNuLzBjYjUzNGJkNWIyMDRmMzMyZTYxZTA5YWZjMDc1YWEz?x-oss-process=image/format,png)
