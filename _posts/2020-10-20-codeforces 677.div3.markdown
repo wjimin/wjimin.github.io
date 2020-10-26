@@ -5,7 +5,8 @@ tag: Codeforces
 ---
 [A. Boring Apartments](https://codeforces.com/contest/1433/problem/A)
 
-![a](https://github.com/wjimin/My_Picture/blob/master/2020.10.21/2020.10.20.a.png)
+
+
 ### 题目大意：
 1. 有 10000 套公寓，编号从 1 到 10000 。
 2. 现在有一个人特别无聊，他会拨打编号上数字都相同的公寓住户号码，直到有人接听才停止，拨打顺序按递增规律，即：1 −> 11 −> 111 −> 1111 −>2−> 22 ->222 -> 2222-> 3 -> 33 ->----9999。
@@ -13,6 +14,7 @@ tag: Codeforces
 ### 思路：
 1. 对个位数取余得到一个数a，那么从1 ~ (a-1)*1000+(a-1)*100+(a-1)*10+(a-1)的贡献为(a-1)*(1+2+3+4)。
 2. 剩余的项处理一下就行了。
+
 ### 代码：
 ```cpp
 #include <bits/stdc++.h>
@@ -47,9 +49,10 @@ int main()
 }
 
 ```
+
 [B. Yet Another Bookshelf](https://codeforces.com/contest/1433/problem/B)
 
-![b](https://github.com/wjimin/My_Picture/blob/master/2020.10.21/2020.10.20.b.png)
+
 ### 题目大意：
 1. 书架上有很多书，1代表此位置有书，0没有书。
 
@@ -64,7 +67,8 @@ int main()
 2. 所以答案就是1中间0的数量
 
 3. 找到最左边的1和最右边的1统计中间0的个数。
-
+ 
+### 代码：
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
@@ -109,9 +113,10 @@ int main()
 }
 ```
 
+
 [C. Dominant Piranha](https://codeforces.com/contest/1433/problem/C)
 
-![b](https://github.com/wjimin/My_Picture/blob/master/2020.10.21/2020.10.20.c.png)
+
 ### 题目大意：
 1. 给你一堆序列，一开始选择一个数，每次可以进行一次操作。
 
@@ -122,6 +127,7 @@ int main()
 ### 思路：
 1. 找出最大的数并且该数旁边至少存在一个比它小的数。
 2. 考虑全部相等的特殊情况。
+   
 ### 代码：
 ```cpp
 #include <bits/stdc++.h>
@@ -182,7 +188,7 @@ int main()
 ```
 [D. Districts Connection](https://codeforces.com/contest/1433/problem/D)
 
-![d](https://github.com/wjimin/My_Picture/blob/master/2020.10.21/2020.10.20.d.png)
+
 
 ### 题目大意：
  1. 给出n个数，要求在每个数之间建一条道路。
@@ -195,6 +201,8 @@ int main()
 
  1. 取不同数建图.
  2. 并查集判断。
+   
+### 代码：
  ```cpp
  #include <bits/stdc++.h>
 using namespace std;
@@ -297,7 +305,7 @@ int main()
  ```
 [E. Two Round Dances](https://codeforces.com/contest/1433/problem/E)
 
-![e](https://github.com/wjimin/My_Picture/blob/master/2020.10.21/2020.10.20.e.png)
+
 ### 题目大意：
 
  1. 有n个人，保证n是偶数。
@@ -315,6 +323,7 @@ int main()
 4. 因为人分为两部分，两部分是等价的，所以坑位1与N/2+1实际上是等价的。所以总分配方
 式要除2.
 5. 答案就是 (N！/2) / (（（N*N）/4）)==N!/（N*N）/2）;
+   
 ### 代码：
 ```python
 t = eval(input())
