@@ -3,7 +3,7 @@ layout: post
 title: 
 tag: Codeforces
 ---
-[A. Boring Apartments](https://codeforces.com/contest/1433/problem/A)
+[***A. Boring Apartments***](https://codeforces.com/contest/1433/problem/A)
 
 
 
@@ -49,7 +49,7 @@ int main()
 
 ```
 
-[B. Yet Another Bookshelf](https://codeforces.com/contest/1433/problem/B)
+[***B. Yet Another Bookshelf***](https://codeforces.com/contest/1433/problem/B)
 
 
 ### 题目大意：
@@ -115,7 +115,7 @@ int main()
 ```
 
 
-[C. Dominant Piranha](https://codeforces.com/contest/1433/problem/C)
+[***C. Dominant Piranha***](https://codeforces.com/contest/1433/problem/C)
 
 
 ### 题目大意：
@@ -186,7 +186,7 @@ int main()
 }
 
 ```
-[D. Districts Connection](https://codeforces.com/contest/1433/problem/D)
+[***D. Districts Connection***](https://codeforces.com/contest/1433/problem/D)
 
 
 
@@ -305,7 +305,7 @@ int main()
     return 0;
 }
  ```
-[E. Two Round Dances](https://codeforces.com/contest/1433/problem/E)
+[***E. Two Round Dances***](https://codeforces.com/contest/1433/problem/E)
 
 
 ### 题目大意：
