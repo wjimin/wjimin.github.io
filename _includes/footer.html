@@ -1,64 +1,134 @@
 <section class="footer">
-    <footer>
-        <div class = "footer_div">  
-        <nav class="cover-navigation navigation--social">
-          <ul class="navigation">
+  <footer>
+          <div class = "footer_div">
+                  <nav class="cover-navigation navigation--social">
+                          <ul class="navigation">
 
-          {% if site.social.github %}
-          <!-- Github -->
-          <li class="navigation__item_social">
-            <a href="https://github.com/{{site.social.github}}" title="@{{site.social.github}} 的 Github" target="_blank">
-              <div class="footer-social-icon" style="background:url(/images/github.png);"></div>
-            </a>
-          </li>
+                                  <!-- Github -->
+                                  {% if site.social.github %}
+                                          <li class="navigation__item_social">
+                                                  <a href="https://github.com/{{site.social.github}}" title="{{site.avatarTitle}}'s Github" target="_blank">
+                                                          <div class="footer-social-icon" style="background:url(/images/github.png);"></div>
+                                                  </a>
+                                          </li>
+                                  {% endif %}
 
+                                  <!-- Weibo -->
+                                  {% if site.social.weibo %}
+                                          <li class="navigation__item_social">
+                                                  <a href="http://weibo.com/{{site.social.weibo}}" title="{{site.avatarTitle}}'s Weibo" target="_blank">
+                                                          <div class="footer-social-icon" style="background:url(/images/weibo.png);"></div>
+                                                  </a>
+                                          </li>
+                                  {% endif %}
 
-          {% if site.social.vjudge %}
-          
-          <!-- vjudge -->
-          <li class="navigation__item_social">
-            <a href="https://vjudge.net:{{site.social.vjudge}}" title="Contact me">
-              <div class="footer-social-icon" style="background:url(/images/vjudge.png);"></div>
-            </a>
-          </li>
-          {% if site.social.codeforces %}
-           <!-- codeforces -->
-           <li class="navigation__item_social">
-            <a href="https://codeforces.com:{{site.social.codeforces}}" title="codeforces">
-              <div class="footer-social-icon" style="background:url(/images/Codeforces.png);"></div>
-            </a>
-          </li>
-           <!-- csdn -->
-          {% if site.social.csdn %}
-          <li class="navigation__item_social">
-            <a href="https://blog.csdn.net/qq_45845404:{{site.social.vjudge}}" title="csdn">
-              <div class="footer-social-icon" style="background:url(/images/vjudge.png);"></div>
-            </a>
-          </li>
-          {% endif %}
+                                  <!-- ZhiHu -->
+                                  {% if site.social.zhihu %}
+                                          <li class="navigation__item_social">
+                                                  <a href="https://www.zhihu.com/people/{{site.social.zhihu}}" title="{{site.avatarTitle}}'s Zhihu'" target="_blank">
+                                                          <div class="footer-social-icon" style="background:url(/images/zhihu.png);"></div>
+                                                  </a>
+                                          </li>
+                                  {% endif %}
 
+                                  <!-- JueJin -->
+                                  {% if site.social.juejin %}
+                                          <li class="navigation__item_social">
+                                                  <a href="https://juejin.im/user/{{site.social.juejin}}" title="{{site.avatarTitle}}'s Juejin" target="_blank">
+                                                          <div class="footer-social-icon" style="background:url(/images/juejin.png);"></div>
+                                                  </a>
+                                          </li>
+                                  {% endif %}
 
-         
+                                  <!-- JianShu -->
+                                  {% if site.social.jianshu %}
+                                          <li class="navigation__item_social">
+                                                  <a href="https://www.jianshu.com/u/{{site.social.jianshu}}" title="{{site.avatarTitle}}'s Jianshu" target="_blank">
+                                                          <div class="footer-social-icon" style="background:url(/images/jianshu.png);"></div>
+                                                  </a>
+                                          </li>
+                                  {% endif %}
 
-        <div class = "footer_div">  
-           <p class="copyright text-muted">
-            Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }} Theme by <a href="http://wjimin.github.io/">wjimin</a> |
-            <iframe
-                style="margin-left: 2px; margin-bottom:-5px;"
-                frameborder="0" scrolling="0" width="91px" height="20px"
-                src="https://ghbtns.com/github-btn.html?user=wjimin&repo=wjimin.github.io&type=star&count=true" >
-            </iframe>
-            </p>
-        	<div align="right">
-    			<link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
+                                  <!-- Twitter -->
+                                  {% if site.social.twitter %}
+                                          <li class="navigation__item_social">
+                                                  <a href="http://twitter.com/{{site.social.twitter}}" title="{{site.avatarTitle}}'s Twitter" target="_blank">
+                                                          <div class="footer-social-icon" style="background:url(/images/twitter.png);"></div>
+                                                  </a>
+                                          </li>
+                                  {% endif %}
 
-          <!-- 访问统计 -->
-          <span id="busuanzi_container_site_pv">
-            本站总访问量
-            <span id="busuanzi_value_site_pv"></span>次
-          </span>
+                                  <!-- Bilibili -->
+                                  {% if site.social.blbl %}
+                                          <li class="navigation__item_social">
+                                                  <a href="https://space.bilibili.com/{{site.social.blbl}}" title="{{site.avatarTitle}}'s Bilibili">
+                                                          <div class="footer-social-icon" style="background:url(/images/blbl.png);"></div>
+                                                  </a>
+                                          </li>
+                                  {% endif %}
 
-        </div>
-        <div>
-    </footer>
+                                  <!-- CSDN blog -->
+                                  {% if site.social.csdn %}
+                                          <li class="navigation__item_social">
+                                                  <a href="https://blog.csdn.net/{{site.social.csdn}}" title="{{site.avatarTitle}}'s CSDN">
+                                                          <div class="footer-social-icon" style="background:url(/images/csdn.png);"></div>
+                                                  </a>
+                                          </li>
+                                  {% endif %}
+
+                                  <!-- codeforces -->
+                                  {% if site.social.codeforces %}
+                                          <li class="navigation__item_social">
+                                                  <a href="https://codeforces.com/profile/{{site.social.codeforces}}" title="{{site.avatarTitle}}'s Codeforces">
+                                                          <div class="footer-social-icon" style="background:url(/images/codeforces.png);"></div>
+                                                  </a>
+                                          </li>
+                                  {% endif %}
+
+                                  <!-- Email -->
+                                  {% if site.social.mail %}
+                                          <li class="navigation__item_social">
+                                                  <a href="mailto:{{site.social.mail}}" title="Contact me @{{site.avatarTitle}}">
+                                                          <div class="footer-social-icon" style="background:url(/images/email.png);"></div>
+                                                  </a>
+                                          </li>
+                                  {% endif %}
+
+                                  <!-- RSS -->
+                                  <li class="navigation__item_social">
+                                          <a href="/feed.xml" rel="author" title="RSS" target="_blank">
+                                                  <div class="footer-social-icon" style="background:url(/images/rss.png);"></div>
+                                                  <span class="label">RSS</span>
+                                          </a>
+                                  </li>
+
+                          </ul>
+                  </nav>
+
+          </div>
+
+          <div class = "footer_div">
+                  <p class="copyright text-muted">
+                          <<<<<<<< BLOG &copy; {{ site.title }} {{ site.time | date: '%Y' }}
+                          This web belong to <a href="https://wjimin.github.io/about">wjimin</a> |
+                          Update by <a href="https://hybrogen.github.io/">H_On</a> |
+                          >>>>>>>> 本站内容未经博主 <a href="https://wjimin.github.io/">wjimin</a> 同意严禁转载 >>>>>>>>
+                          <iframe
+                                  style="margin-left: 2px; margin-bottom:-5px;"
+                                  frameborder="0" scrolling="0" width="91px" height="20px"
+                                  src="https://ghbtns.com/github-btn.html?user=wjimin&repo=hybrogen.github.io&type=star&count=true" >
+                          </iframe>
+                  </p>
+                  <div align="right">
+                          <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+                          <!-- 访问统计 -->
+                          <span id="busuanzi_container_site_pv">
+                                  本站总访问量
+                                  <span id="busuanzi_value_site_pv"></span>次
+                          </span>
+                  </div>
+          </div>
+  </footer>
 </section>
+<!--本站内容未经博主（wjimin）同意严禁转载-->
