@@ -15,10 +15,9 @@
 
           {% if site.social.zhihu %}
           <!-- Zhihu -->
-          <!-- b站 -->
           <li class="navigation__item_social">
-            <a href="https://www.bilibili.com/people/{{site.social.bilibili}}" title="@{{site.social.bilibili}}" target="_blank">
-              <div class="footer-social-icon" style="background:url(/images/bilibili.png);"></div>
+            <a href="https://www.zhihu.com/people/{{site.social.zhihu}}" title="@{{site.social.zhihu}}" target="_blank">
+              <div class="footer-social-icon" style="background:url(/images/zhihu.png);"></div>
             </a>
           </li>
 
@@ -36,9 +35,10 @@
 
           {% if site.social.jianshu %}
           <!-- Zhihu -->
+           <!-- bilibili -->
           <li class="navigation__item_social">
-            <a href="https://www.jianshu.com/u/{{site.social.jianshu}}" title="@{{site.social.jianshu}}" target="_blank">
-              <div class="footer-social-icon" style="background:url(/images/jianshu.png);"></div>
+            <a href="https://www.bilibili.com/{{site.social.bilibili}}" title="@{{site.social.bilibili}}" target="_blank">
+              <div class="footer-social-icon" style="background:url(/images/bilibili.png);"></div>
             </a>
           </li>
 
@@ -47,8 +47,8 @@
           {% if site.social.weibo %}
           <!-- Weibo -->
           <li class="navigation__item_social">
-            <a href="http://weibo.com/{{site.social.weibo}}" title="@{{site.social.weibo}} 的微博" target="_blank">
-              <div class="footer-social-icon" style="background:url(/images/weibo.png);"></div>
+            <a href="http://codeforces.com/{{site.social.codeforces}}" title="@{{site.social.codeforces}} 的微博" target="_blank">
+              <div class="footer-social-icon" style="background:url(/images/Codeforces.png);"></div>
             </a>
           </li>
           {% endif %}
@@ -56,6 +56,7 @@
           
           {% if site.social.twitter %}
           <!-- Twitter -->
+
           <li class="navigation__item_social">
             <a href="http://twitter.com/{{site.social.twitter}}" title="@{{site.social.twitter}}" target="_blank">
               <div class="footer-social-icon" style="background:url(/images/twitter.png);"></div>
@@ -66,17 +67,20 @@
 
           {% if site.social.mail %}
           <!-- Email -->
+          <!-- vjudge -->
           <li class="navigation__item_social">
-            <a href="mailto:{{site.social.mail}}" title="Contact me">
-              <div class="footer-social-icon" style="background:url(/images/email.png);"></div>
+            <a href="https://vjudge.net:{{site.social.vjudge}}" title="Contact me">
+              <div class="footer-social-icon" style="background:url(/images/vjudge.png);"></div>
             </a>
           </li>
           {% endif %}
           <!-- RSS -->
+            <!-- csdn -->
+
           <li class="navigation__item_social">
-            <a href="/feed.xml" rel="author" title="RSS" target="_blank">
-              <div class="footer-social-icon" style="background:url(/images/rss.png);"></div>
-              <span class="label">RSS</span>
+            <a href="https://blog.csdn.net/qq_45845404" rel="author" title="csdn" target="_blank">
+              <div class="footer-social-icon" style="background:url(/images/csdn.png);"></div>
+              <span class="label">csdn</span>
             </a>
           </li>
 
